@@ -1,40 +1,34 @@
-*/
-comparison operators
-comparison operators evaluate to only true or false.
-/*
+// comparison operators
+// comparison operators evaluate to only true or false.
 
 /*
-And ->$$
+And -> &&
 truth table -> all possible combinations
-val1 and val2
+val1 && val2
 combinations are
-val1 and val2
+val1 && val2
 combinations are
-val1 $$ val2
-val2 $$ val1
-->for all statements have to be true for 
- it to be true
+val1 && val2
+val2 && val1
+-> for all statements to be true for the result to be true
 */
 
-let val1=true
-let val2=true
-let result1=val1$val2
+let val1 = true;
+let val2 = true;
+let result1 = val1 && val2;
 
-console.log('val1=${val1} val2=${val2} val1$$val2=${val1$$val2}')
+console.log(`val1=${val1} val2=${val2} val1&&val2=${result1}`);
 
-let mercy_age=15
-let mercy_balance=50000
+let mercy_age = 15;
+let mercy_balance = 50000;
 
-//if mercy is age is greater than 18 and has  more than 20k in her account
-let is_greater_than_18=mercy_age>18 //true or false
-console.log('is mercy age greater than 18 ${is greater_than_18}')
-let has_more_than_20k_balance>20000
-console.log('mercy has more than 20k ${has_more_than_20k}')
-console.log('mercyis age is greater than 18
-    and has more than 20k in her account
-    ${is_greater_than_18$$_more_than_20k}
-    ')
-//mercy_age>18$$mercy_balance>20000
-let simplified=mercy_age>18$$mercy_balance>20000
-console.log('simplified ${simplified}')
-console.log('further simplification is ${mercy_age>18$$mercy_balance>20000}')
+// if mercy age is greater than 18 and has more than 20k in her account
+let is_greater_than_18 = mercy_age > 18; // true or false
+console.log(`is mercy age greater than 18 ${is_greater_than_18}`);
+let has_more_than_20k_balance = mercy_balance > 20000;
+console.log(`mercy has more than 20k ${has_more_than_20k_balance}`);
+console.log(`mercy's age is greater than 18 and has more than 20k in her account ${is_greater_than_18 && has_more_than_20k_balance}`);
+
+let simplified = mercy_age > 18 && mercy_balance > 20000;
+console.log(`simplified ${simplified}`);
+console.log(`further simplification is ${mercy_age > 18 && mercy_balance > 20000}`);
