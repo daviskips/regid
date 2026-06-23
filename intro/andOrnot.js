@@ -32,3 +32,16 @@ console.log(`mercy's age is greater than 18 and has more than 20k in her account
 let simplified = mercy_age > 18 && mercy_balance > 20000;
 console.log(`simplified ${simplified}`);
 console.log(`further simplification is ${mercy_age > 18 && mercy_balance > 20000}`);
+
+/*
+OR operator ||
+At least one statement has to be true for the whole expression to be true
+*/
+console.log(`mercy age is greater than 18 or she has more than 20k in her account ${is_greater_than_18 || has_more_than_20k_balance}`);
+
+/*
+NOT operator !
+Inverts the boolean value
+*/
+console.log(`this is not true = ${!true}`);
+console.log(`this is false = ${!false}`);
