@@ -51,4 +51,3 @@ console.log('val1=${val1}!=val2=${val2}
     
     console.log('numb3<=numb4 ${numb3<=numb4}')
     console.log('str2<=str1 ${str1<=str2}')
-
