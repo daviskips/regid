@@ -30,6 +30,6 @@ senario 4:put a return statement anywhere inside your function and return
 a string of your choice
 senario 5:put a return statement anywhere inside your function and return
 a number of your choice
-senario 6:put a return statement anywhere inside yourfunction and return
+senario 6:put a return statement anywhere inside your function and return
 a boolean of your choice
 */
